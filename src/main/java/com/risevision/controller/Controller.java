@@ -262,7 +262,7 @@ public class Controller {
         return id;
     }
 
-    public void loadLog(){
+    private void loadLog(){
         logWindow = LogWindow.getInstance();
     }
 
